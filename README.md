@@ -15,7 +15,7 @@ Some script to support getting into running crostini apps
 *Use it*
 1. Launch crosh (ctrl-alt-t)
 1. Create crostini VM `vmc start dev`. This'll download the termina component, and open a shell.
-1. Fetch the stretch image created by this repo `curl -Lo /tmp/stretch.tgz http://github.com/lstoll/chromeoshack/releases/download/0.1/stretch.tgz`
+1. Fetch the stretch image created by this repo `curl -Lo /tmp/stretch.tgz http://github.com/lstoll/cros-crostini/releases/download/0.1/stretch.tgz`
 1. Install it into lxd `lxc image import /tmp/stretch.tgz --alias stretch`
 1. Create the container, set it up, use it:
 
