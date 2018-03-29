@@ -7,7 +7,7 @@ Some script to support getting into running crostini apps
 *Enable the feature*
 1. Switch to the dev channel (beta also ok if m66).
 1. Put into developer mode. This is only needed to enable the feature flag
-1. "Enable debugging features" when setting up post switch/wipe, so you can SSH in.
+1. "Enable debugging features" when setting up post switch/wipe `ctrl + d`
 1. Open a crosh window (CTRL+ALT+T)
 ```
 shell
