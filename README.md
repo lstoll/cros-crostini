@@ -5,9 +5,9 @@ Some script to support getting into running crostini apps
 ### I just wanna try it out!
 
 *Enable the feature*
-1. Switch to the dev channel (beta also ok if m66).
 1. Put into developer mode. This is only needed to enable the feature flag
 1. "Enable debugging features" when setting up post switch/wipe, so you can SSH in.
+1. Switch to the dev channel (beta also ok if m66).
 1. Press Ctrl+Alt+=> to access dev terminal and login as root
 1. edit `/etc/chrome_dev.conf` , add --enable-features=Crostini
 1. Press Ctrl+Alt+<= to go back to Chrome OS
