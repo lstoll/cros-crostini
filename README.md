@@ -1,11 +1,11 @@
 # README
 
-Some script to support getting into running crostini apps
+**Note**: Currently (Apr 6 '18) only works on Pixelbooks.
 
 ### I just wanna try it out!
 
 *Enable the feature*
-1. Switch to the dev channel. The latest builds now "just work"
+1. Switch to the dev channel (this is different to developer mode!). Ref https://support.google.com/chromebook/answer/1086915?hl=en. The latest builds now "just work" (>= 67.0.3383.0)
 
 *Use it*
 1. Launch crosh (ctrl-alt-t)
