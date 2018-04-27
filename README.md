@@ -20,7 +20,7 @@ This is build out of a few things
 * crosvm/termina - a hypervisor for chromeos, and an OS image that's based on chromeos with lxd installed.
 * crostini - seems like branding for running dev-ish apps inside a container inside the above VM.
 
-Wayland is mapped across a virtio rig, which makes for decent performance. The stretch image has this + somellier in it, so normal X apps just work
+Wayland is mapped across a virtio rig, which makes for decent performance. The stretch image has this + sommelier in it, so normal X apps just work
 
 Some notable things to look at:
 * crosvm, the hypervisor: https://chromium.googlesource.com/chromiumos/platform/crosvm/
